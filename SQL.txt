@@ -1,0 +1,25 @@
+STEP 1: CREATE DATABASE HOTEL;
+STEP 2: USE HOTEL;
+STEP 3: WE REQUIRE TWO TABLES, ONE FOR HOTEL DETAILS & OTHER ONE FOR LOGIN DETAILS;
+
+
+
+CREATE TABLE EMPDETAILS(empid varchar(5), empnm varchar(10), empacc int, passwrd varchar(5));
+
+
+INSERT INTO EMPDETAILS VALUES('0000', 'HARI', 1, '0000');
+INSERT INTO EMPDETAILS VALUES('1111', 'JAI', 2, '1111');
+INSERT INTO EMPDETAILS VALUES('2222', 'MATHEW', 3, '2222');
+INSERT INTO EMPDETAILS VALUES('3333', 'FARIZ', 4, '3333');
+
+
+----------------------------------------------------------------------
+
+CREATE TABLE ADDROOM(NAME varchar(30), ADDRESS varchar(300), PHONE VARCHAR(10), CIN DATE, COD DATE, ADHR VARCHAR(14), RNO CHAR(3), RTYPE VARCHAR(10));
+
+----------------------------------------------------------------------
+
+
+TO RUN:
+javac hotel.java
+java -cp mysqlconnector.jar; hotel

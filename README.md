@@ -1,2 +1,12 @@
-# Micro_project_hotel_management
-This is a micro project which manages the booking of rooms in a hotel using java. It is integrated with sql using JDBC that will keep a record of guests and rooms
+# HOTEL.java
+JAVA PROGRAM TO RESERVE ROOMS USING JDBC, JAVA GUI AND DATABASE
+
+STEP 1: GOTO MYSQL CREATE REQUIRED TABLES GIVEN IN SQL.txt;
+
+STEP 2: GOTO CMD AND TYPE LOCATION OF THE PROGRAM;
+
+STEP 3: EXECUTE "JAVAC HOTEL.java" \\Do not mind the warning;
+
+STEP 4: RUN THE PROGRAM "JAVA -cp mysqlconnector.jar; hotel;
+
+STEP 5: STOP;
